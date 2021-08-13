@@ -1,22 +1,23 @@
 import React from "react";
-import Radium, { StyleRoot } from "radium";
-import Cont from "./pages/Contact";
-import Log from "./pages/Login";
-import Nav from "./pages/Nav";
-import Hom from "./pages/Home";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Des from "./pages/Design";
+import Not from "./pages/Notification";
+import Cardss from "./pages/Cards";
+import DubaiHome from "./pages/Dubaihome";
+import UseEffect from "./pages/Useeffect";
+import UseCallBack from "./pages/Usecallback";
+import Middlepart from "./pages/Middle";
+import Flip from "./pages/Flipcard";
+import Check from "./pages/Checkbox";
+
+import GIFapp from "./pages/Gifapp";
+
 const App = () => {
   return (
-    <Router>
-      <div className="App">
-        <Nav />
-        <Switch>
-          <Route path="/home" exact component={Hom} />
-          <Route path="/contactus" exact component={Cont} />
-          <Route path="/loginhere" exact component={Log} />
-        </Switch>
+    <div className="App">
+      <div>
+        <GIFapp />
       </div>
-    </Router>
+    </div>
   );
 };
 export default App;

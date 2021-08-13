@@ -18,13 +18,25 @@ const Nav = () => {
         className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}
       >
         <ul className="nav-links">
-          <Link to="/home">
+          <Link to="/home" className="list">
             <li>Home</li>
           </Link>
-          <Link to="/contactus">
+          <Link to="" className="list1">
+            <li>How it works</li>
+          </Link>
+          <Link to="" className="list1">
+            <li>Pricing</li>
+          </Link>
+          <Link to="" className="list1">
+            <li>FAQS</li>
+          </Link>
+          <Link to="" className="list1">
+            <li>Book a demo</li>
+          </Link>
+          <Link to="/contactus" className="list1">
             <li>Contact Us</li>
           </Link>
-          <Link to="/loginhere">
+          <Link to="/loginhere" className="list2">
             <li>Login Here</li>
           </Link>
         </ul>
