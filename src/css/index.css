@@ -1,0 +1,523 @@
+@import url("Bhubaneswar.css");
+@import url("Puri.css");
+@import url("Darangibadi.css");
+@import url("Kolkata.css");
+@import url("Loverspoint.css");
+.backgroundimage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 74%),
+    url(https://www.virginholidays.co.uk/.imaging/Desktop/dam/2df92e80-92ea-47cd-af95-41b8316fbd5d.jpg);
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 50%;
+  width: 100%;
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  .backgroundimage {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4) 74%
+      ),
+      url(https://www.virginholidays.co.uk/.imaging/Desktop/dam/2df92e80-92ea-47cd-af95-41b8316fbd5d.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: 50%;
+    width: 100%;
+  }
+}
+@media (min-width: 550px) and (max-width: 749px) {
+  .backgroundimage {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4) 74%
+      ),
+      url(https://www.virginholidays.co.uk/.imaging/Desktop/dam/2df92e80-92ea-47cd-af95-41b8316fbd5d.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: 50%;
+    width: 100%;
+  }
+}
+@media (min-width: 0px) and (max-width: 549px) {
+  .backgroundimage {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4) 74%
+      ),
+      url(https://www.virginholidays.co.uk/.imaging/Desktop/dam/2df92e80-92ea-47cd-af95-41b8316fbd5d.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: 50%;
+    width: 100%;
+  }
+}
+/*   searchbox main div css code  */
+
+.imagecontent {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+.searchbox {
+  display: flex;
+  width: 100%;
+  height: 62px;
+  border-radius: 4px;
+}
+.title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.searchboxleft {
+  width: 80%;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.inputbox {
+  height: 100%;
+  width: 90%;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif !important;
+  color: #939191;
+  padding-left: 4%;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.searchbtn {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #ff7b00;
+  word-spacing: 20px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.searchboxright {
+  background-color: #ff7b00;
+  width: 20%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/*  Media Query of image starts here */
+@media only screen and (min-width: 1025px) and (max-width: 1350px) {
+  .imagecontent {
+    width: 60%;
+    align-items: center;
+    text-align: center;
+  }
+  .searchbox {
+    display: flex;
+    width: 100%;
+    height: 62px;
+    border-radius: 4px;
+  }
+  .title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .location {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .imagecontent {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+  }
+  .searchbox {
+    display: flex;
+    width: 100%;
+    height: 62px;
+    border-radius: 4px;
+  }
+  .title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .location {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 849px) {
+  .imagecontent {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+  }
+  .searchbox {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+  }
+  .title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .searchboxleft {
+    background-color: white;
+    width: 80%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .inputbox {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif !important;
+    color: #939191;
+    padding-left: 4%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .imagecontent {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+  .searchbox {
+    display: flex;
+    width: 100%;
+    height: 37px;
+    border-radius: 4px;
+  }
+  .title {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .searchboxleft {
+    background-color: white;
+    width: 80%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .inputbox {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    color: #939191;
+    padding-left: 4%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .searchbtn {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .searchboxright {
+    background-color: #ff7b00;
+    width: 20%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+/*   */
+.carddiv {
+  box-shadow: 0 0 10px black;
+  height: 150px;
+  width: 240px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.productdiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+/* Card and custom arrow css code starts here  */
+.cardheadingandcustomarrow {
+  display: flex;
+  justify-content: space-between;
+}
+.cardtitle {
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #232323;
+  font-weight: 600;
+  letter-spacing: 0.0075em;
+}
+.dayandnight {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.57;
+  letter-spacing: 0.00714em;
+}
+.price {
+  color: rgb(207, 169, 21);
+  font-weight: 600;
+  font-size: 21px;
+  letter-spacing: 0.00714em;
+}
+.maincard {
+  height: 280px;
+
+  margin: 4em 0.5em 0.5em 0.5em;
+}
+.courseltitle {
+  font-size: 22px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #232323;
+  font-weight: 600;
+  letter-spacing: 0.0075em;
+}
+@media only screen and (min-width: 120px) and (max-width: 350px) {
+  .courseltitle {
+    font-size: 18px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #232323;
+    font-weight: 600;
+    letter-spacing: 0.0075em;
+  }
+}
+.rightarrow {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin: 5px;
+  box-shadow: 1px 1px 5px 1px #cccccc;
+  cursor: pointer;
+  border-left: 1px solid white !important;
+  border: none !important;
+  margin-left: 1px;
+}
+.leftarrow {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin: 5px;
+
+  box-shadow: -1px 1px 5px 1px #cccccc;
+  border-right: 1px solid white !important;
+  cursor: pointer;
+  border: none !important;
+}
+
+.travelright {
+  border: 1px solid black;
+  width: 80px;
+}
+.headermaindiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.rightarrowxs {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin: 5px;
+
+  cursor: pointer;
+  border-left: 1px solid white !important;
+  border: none !important;
+  margin-left: 1px;
+  background: rgb(252, 206, 25);
+}
+.leftarrowxs {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin: 5px;
+
+  border-right: 1px solid white !important;
+  cursor: pointer;
+  border: none !important;
+  background: rgb(252, 206, 25);
+}
+/* Internationcoursel CSS Code starts her */
+.internationalcourseldiv {
+  margin-top: 20px;
+}
+.leftarrowicon {
+  color: #fcce19;
+}
+.rightarrowicon {
+  color: #fcce19;
+}
+.leftarrowiconxs {
+  color: white;
+}
+.rightarrowiconxs {
+  color: white;
+}
+/*  Right grid or contact us page starts here */
+.rightgridmaindiv {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 40%);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.rightgridtitle {
+  background-color: #f1f1ef;
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.rightgridtitletext {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d8d7d7;
+}
+.rightgridtitlespan {
+  font-size: 12px;
+  font-weight: normal;
+}
+.packagenametextfield {
+  width: 100%;
+}
+.packagenametext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+.internationallabel {
+  color: #333;
+  font-size: 14px;
+}
+.departuretextfield {
+  width: 100%;
+}
+.departuretext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.dateofdeparturetext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.dateofdeparturetextfield {
+  width: 100%;
+}
+.contactdetailstext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+}
+.contactdetailsdiv {
+  width: 100%;
+
+  margin: 10px 0px;
+  height: 14px;
+  border-bottom: 1px solid rgb(161, 159, 159);
+}
+.contactdetailsdiv span {
+  background-color: white;
+  color: #848383;
+  font-size: 14px;
+  font-weight: 500;
+}
+.yournametextfield {
+  width: 100%;
+  margin-top: 20px !important;
+
+  height: 100% !important;
+}
+.yourmailidtextfield {
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 20px !important;
+}
+
+.phonenumber2textfield {
+  width: 100%;
+}
+.phonenumberdiv {
+  margin-top: 20px !important;
+}
+.submitbtn {
+  margin-top: 20px !important;
+  color: white !important;
+  width: 100%;
+  background-color: #ff7b00 !important;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+.cardimagesdiv {
+  margin-top: 20px;
+}
+
+/* Bhubaneswar page css code  */
+
+/*  Puritour css code starts here  */

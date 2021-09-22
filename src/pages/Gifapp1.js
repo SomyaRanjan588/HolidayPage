@@ -2,6 +2,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "../App.css";
 
+import Card from "@material-ui/core/Card";
+
+import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
+
 const API_KEY = "QPAHG63SJOS656c9KZzABkYCyThyA5Qw";
 
 const Tag = (tag) => {
@@ -21,18 +26,20 @@ const Tag = (tag) => {
 
   return (
     <div className="leftgif">
-      <h4 className="leftgifheading">Random GIF</h4>
-      <img
-        src={gif}
-        width="250"
-        height="220"
-        alt="Random Gif"
-        className="gifimage"
-      />
-      <br></br>
-      <button onClick={handleClick} className="leftgifbutton">
-        CLICK HERE FOR NEW GIF
-      </button>
+      <h5 className="leftgifheading">Random GIF</h5>
+      <Card className="leftgifcard">
+        <CardMedia image={gif} alt="Random Gif" className="gifimage" />
+        <br></br>
+
+        <Button
+          onClick={handleClick}
+          variant="contained"
+          className="leftgifbutton"
+          color="primary"
+        >
+          CLICK HERE FOR NEW GIF
+        </Button>
+      </Card>
     </div>
   );
 };

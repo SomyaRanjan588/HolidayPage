@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../App.css";
+import Card from "@material-ui/core/Card";
+
+import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
 
 const API_KEY = "QPAHG63SJOS656c9KZzABkYCyThyA5Qw";
 
@@ -28,25 +32,27 @@ const Random = () => {
 
   return (
     <div className="rightgif">
-      <h4 className="rightgifheading">Random {tag} GIF</h4>
-      <img
-        width="250"
-        height="220"
-        src={gif}
-        alt="Random Gif"
-        className="gifimage"
-      />
-      <br></br>
-      <input
-        value={tag}
-        onChange={(e) => setTag(e.target.value)}
-        placeholder="Enter Any GIF Name"
-        className="rightgifinputbox"
-      />
-      <br></br>
-      <button onClick={handleClick} className="rightgifbutton">
-        CLICK HERE FOR NEW GIF
-      </button>
+      <h5 className="rightgifheading">Random {tag} GIF</h5>
+      <Card className="rightgifcard">
+        <CardMedia image={gif} alt="Random Gif" className="gifimage" />
+
+        <input
+          value={tag}
+          onChange={(e) => setTag(e.target.value)}
+          placeholder="Enter Any GIF Name"
+          className="rightgifinputbox"
+        />
+        <br></br>
+        <br></br>
+        <Button
+          onClick={handleClick}
+          className="rightgifbutton"
+          variant="contained"
+          color="primary"
+        >
+          CLICK HERE FOR NEW GIF
+        </Button>
+      </Card>
     </div>
   );
 };

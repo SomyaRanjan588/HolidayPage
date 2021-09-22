@@ -1,0 +1,439 @@
+.darangibadibackgroundbanner {
+  background-image: linear-gradient(
+      rgba(194, 150, 150, 0.1),
+      rgba(0, 0, 0, 0.1) 74%
+    ),
+    url(https://guidetour.in/wp-content/uploads/2018/01/Daringbadi-hill-station.jpg);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  .darangibadibackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1) 74%
+      ),
+      url(https://guidetour.in/wp-content/uploads/2018/01/Daringbadi-hill-station.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 550px) and (max-width: 749px) {
+  .darangibadibackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1) 74%
+      ),
+      url(https://guidetour.in/wp-content/uploads/2018/01/Daringbadi-hill-station.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 0px) and (max-width: 549px) {
+  .darangibadibackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1) 74%
+      ),
+      url(https://guidetour.in/wp-content/uploads/2018/01/Daringbadi-hill-station.jpg);
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.darangibadisearchfield {
+  width: 45%;
+  height: 45px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 0 0 10px black;
+}
+.darangibadileftsearchfield {
+  width: 80%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.darangibadileftsearchfieldinputbox {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif !important;
+  color: #939191;
+  padding-left: 4%;
+}
+.darangibadirightsearchfield {
+  width: 20%;
+  border: none;
+  outline: none;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.darangibadirightsearchfieldbtn {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #ff7b00;
+  word-spacing: 20px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.darangibadisearchicon {
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
+
+/*  Puri background banner media query code starts here */
+@media only screen and (min-width: 1025px) and (max-width: 1350px) {
+  .darangibadisearchfield {
+    width: 60%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .darangibadisearchfield {
+    width: 65%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .darangibadileftsearchfield {
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadirightsearchfield {
+    width: 20%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadisearchicon {
+    margin-right: 3px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 860px) {
+  .darangibadisearchfield {
+    width: 75%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .darangibadileftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadirightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadisearchicon {
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .darangibadisearchfield {
+    width: 90%;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .darangibadileftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadirightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadisearchicon {
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 399px) {
+  .darangibadisearchfield {
+    width: 90%;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .darangibadileftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .darangibadirightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .darangibadisearchicon {
+    display: none !important;
+  }
+}
+.darangibadibackgroundbanner h4 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+  .darangibadibackgroundbanner h4 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+  .darangibadibackgroundbanner h4 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+  .darangibadibackgroundbanner h4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+/*   Sorting main class starts here */
+.darangibadisortingmaindiv {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.darangibadisortingmenudiv {
+  display: flex;
+
+  margin-left: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.darangibadipricebutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.darangibadipopularbutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 10px;
+}
+.darangibadidurationbutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+  .darangibadisortingmenudiv {
+    display: flex;
+
+    margin-left: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 340px) {
+  .darangibadipricebutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .darangibadipopularbutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .darangibadidurationbutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0px;
+  }
+}
+.darangibadisortingmaindiv h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 150px;
+}
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .darangibadisortingmaindiv h4 {
+    display: none;
+  }
+}
+.darangibadilowerbutton {
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+}
+.darangibadiupperborderbuttom {
+  border-top: 1px solid gray;
+  width: 100%;
+}

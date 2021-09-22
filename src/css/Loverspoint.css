@@ -1,0 +1,533 @@
+.loverspointparentdiv {
+  height: 250vh;
+}
+
+.mainnavbardiv {
+  width: 100%;
+
+  position: sticky;
+  display: block;
+  top: 0;
+  height: 105px;
+  z-index: 1000;
+}
+.mainnavbardiv.active {
+  box-shadow: 2px -3px 10px black;
+  background-color: white;
+}
+@media only screen and (min-width: 400px) and (max-width: 538px) {
+  .mainnavbardiv {
+    width: 100%;
+    position: sticky;
+    display: block;
+    top: 0;
+    height: 135px;
+    z-index: 1000;
+  }
+  .mainnavbardiv.active {
+    box-shadow: 2px -3px 10px black;
+    background-color: white;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  .mainnavbardiv {
+    width: 100%;
+    position: sticky;
+    display: block;
+    top: 0;
+    height: 145px;
+    z-index: 1000;
+  }
+  .mainnavbardiv.active {
+    box-shadow: 2px -3px 10px black;
+    background-color: white;
+  }
+}
+
+.wrapperclass {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 10px;
+  width: 100%;
+}
+.wrapperclass h4 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (min-width: 290px) and (max-width: 340px) {
+  .wrapperclass h4 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 290px) {
+  .wrapperclass h4 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+.pricemaindiv {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  gap: 3rem;
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+  .pricemaindiv {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    gap: 2rem;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 650px) {
+  .pricemaindiv {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    gap: 1rem;
+  }
+}
+.booknowbutton {
+  outline: none;
+  background-color: #ff7b00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  height: 35px;
+  width: 110px;
+  margin-top: 4px;
+}
+.pricestartsdiv {
+  font-size: 12px;
+  color: gray;
+}
+.ruppesdiv {
+  font-size: 21px;
+  font-weight: 600;
+  color: rgb(207, 169, 21);
+}
+
+.listmaindiv div {
+  display: flex;
+  gap: 1rem;
+}
+.listmaindiv div a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid gainsboro;
+  box-shadow: 0 0 3px 0px rgb(100, 99, 99);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: gainsboro;
+}
+.listmaindiv div a:hover {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid gainsboro;
+  box-shadow: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: gray;
+}
+.loverspoint1div {
+  max-height: 400px;
+  width: 100%;
+
+  border-radius: 5px;
+}
+.loverspoint2div {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 5px;
+}
+.loverspoint3div {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 5px;
+}
+.loverspoint4div {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 5px;
+}
+.lovespointcourselimage {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 5px !important;
+}
+.lovespointrightarrow {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin: 5px;
+  box-shadow: 1px 1px 5px 1px black;
+  background-color: white;
+  cursor: pointer;
+  border-left: 1px solid white !important;
+  border: none !important;
+  margin-left: 1px;
+}
+.lovespointleftarrow {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin: 5px;
+  background-color: white;
+  box-shadow: -1px 1px 5px 1px black;
+  border-right: 1px solid white !important;
+  cursor: pointer;
+  border: none !important;
+}
+/*  Contact us css code  */
+.loverspointrightgridmaindiv {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 40%);
+  border-radius: 5px;
+}
+.loverspointrightgridtitle {
+  background-color: #f1f1ef;
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.loverspointrightgridtitletext {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d8d7d7;
+}
+.loverspointrightgridtitlespan {
+  font-size: 12px;
+  font-weight: normal;
+}
+.loverspointpackagenametextfield {
+  width: 100%;
+}
+.loverspointpackagenametext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+.loverspointinternationallabel {
+  color: #333;
+  font-size: 14px;
+}
+.loverspointdeparturetextfield {
+  width: 100%;
+}
+.loverspointdeparturetext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.loverspointdateofdeparturetext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.loverspointdateofdeparturetextfield {
+  width: 100%;
+}
+.loverspointcontactdetailstext {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+}
+.loverspointcontactdetailsdiv {
+  width: 100%;
+
+  margin: 10px 0px;
+  height: 14px;
+  border-bottom: 1px solid rgb(161, 159, 159);
+}
+.loverspointcontactdetailsdiv span {
+  background-color: white;
+  color: #848383;
+  font-size: 14px;
+  font-weight: 500;
+}
+.loverspointyournametextfield {
+  width: 100%;
+  margin-top: 15px !important;
+
+  height: 100% !important;
+}
+.loverspointyourmailidtextfield {
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 15px !important;
+}
+
+.loverspointphonenumber2textfield {
+  width: 100%;
+}
+.loverspointphonenumberdiv {
+  margin-top: 15px !important;
+}
+.loverspointsubmitbtn {
+  margin-top: 20px !important;
+  color: white !important;
+  width: 100%;
+  background-color: #ff7b00 !important;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+.emptydiv1 {
+  height: 100px;
+  width: 100%;
+}
+.packageoverviewdiv {
+  margin-top: 0px;
+}
+.packageoverviewdiv h4 {
+  font-size: 21px;
+  margin-top: 10px;
+}
+.packageoverviewdiv p {
+  font-size: 14px;
+  color: black;
+  line-height: 1.7;
+  text-align: justify;
+  margin-top: 20px;
+}
+.tourpackageborderbutton {
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+  padding-top: 10px;
+}
+.inclusonandexclusionmaindiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.inclusionmaindiv {
+  width: auto;
+  height: auto;
+  background-color: white;
+  box-shadow: -1px 5px 7px 2px #cccccc;
+  border-radius: 5px;
+}
+.inclusionmaindiv h4 {
+  text-align: center;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: gainsboro;
+}
+.inclusionmaindiv ul li {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.exclusionmaindiv {
+  width: auto;
+  height: auto;
+  background-color: white;
+  box-shadow: -1px 5px 7px 2px #cccccc;
+  border-radius: 5px;
+}
+.exclusionmaindiv h4 {
+  text-align: center;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: gainsboro;
+}
+.exclusionmaindiv ul li {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+/*  Day Wise Internary Main Div */
+.day1maindiv {
+  margin-top: 20px;
+}
+.daywiseitinerarymaindiv {
+  margin-top: 0px;
+}
+.daywiseitinerarymaindiv h5 {
+  font-size: 15px;
+}
+.daywiseiternarydiv1 {
+  margin-left: 2.5rem;
+}
+.bobbleandborderstickdiv {
+  height: auto;
+  margin-top: 4px;
+}
+.bobble {
+  width: 15px;
+  height: 15px;
+  background: #c5c5c5;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+.borderstick {
+  width: 3px;
+  height: 83%;
+  border: 1px solid #ffffff;
+  top: 0.5rem;
+  bottom: 0rem;
+  margin-left: 5px;
+  background: #c5c5c5;
+}
+.borderstick p {
+  color: white;
+  margin-left: 10px;
+}
+.daywiseiternarydiv1 {
+  display: flex;
+  margin-top: 10px;
+  gap: 1rem;
+}
+.day1text p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+}
+.day1buttonmaindiv button {
+  background-color: #ff7b00;
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 28px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #cccccc;
+  color: white;
+  font-weight: 600;
+  cursor: none;
+}
+/*  Day2 Internary Css Code  */
+.day2maindiv {
+  margin-top: 20px;
+}
+.daywiseiternarydiv2 {
+  margin-left: 2.5rem;
+}
+.bobbleandborderstickdiv {
+  height: auto;
+}
+.bobble {
+  width: 15px;
+  height: 15px;
+  background: #c5c5c5;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+.borderstick {
+  width: 3px;
+  height: 83%;
+  border: 1px solid #ffffff;
+  top: 0.5rem;
+  bottom: 0rem;
+  margin-left: 5px;
+  background: #c5c5c5;
+}
+.borderstick p {
+  color: white;
+  margin-left: 10px;
+}
+.daywiseiternarydiv2 {
+  display: flex;
+  margin-top: 10px;
+  gap: 1rem;
+}
+.day2text p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+}
+.day2buttonmaindiv button {
+  background-color: #ff7b00;
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 28px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #cccccc;
+  color: white;
+  font-weight: 600;
+}
+/*  Day 3 Internary css code starts here  */
+.day3maindiv {
+  margin-top: 20px;
+}
+.daywiseiternarydiv3 {
+  margin-left: 2.5rem;
+}
+.bobbleandborderstickdiv {
+  height: auto;
+}
+.bobble {
+  width: 15px;
+  height: 15px;
+  background: #c5c5c5;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+.borderstick {
+  width: 3px;
+  height: 83%;
+  border: 1px solid #ffffff;
+  top: 0.5rem;
+  bottom: 0rem;
+  margin-left: 5px;
+  background: #c5c5c5;
+}
+.borderstick p {
+  color: white;
+  margin-left: 10px;
+}
+.daywiseiternarydiv3 {
+  display: flex;
+  margin-top: 10px;
+  gap: 1rem;
+}
+.day3text p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+}
+.day3buttonmaindiv button {
+  background-color: #ff7b00;
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 28px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #cccccc;
+  color: white;
+  font-weight: 600;
+}

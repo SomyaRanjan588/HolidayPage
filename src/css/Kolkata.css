@@ -1,0 +1,447 @@
+.kolkatabackgroundbanner {
+  background-image: linear-gradient(
+      rgba(194, 150, 150, 0.2),
+      rgba(0, 0, 0, 0.2) 50%
+    ),
+    url(https://i.pinimg.com/originals/5d/3f/77/5d3f77e7be967458853e1b52ed9d52a0.jpg);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  .kolkatabackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 50%
+      ),
+      url(https://i.pinimg.com/originals/5d/3f/77/5d3f77e7be967458853e1b52ed9d52a0.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 550px) and (max-width: 749px) {
+  .kolkatabackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 50%
+      ),
+      url(https://i.pinimg.com/originals/5d/3f/77/5d3f77e7be967458853e1b52ed9d52a0.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 0px) and (max-width: 549px) {
+  .kolkatabackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 50%
+      ),
+      url(https://i.pinimg.com/originals/5d/3f/77/5d3f77e7be967458853e1b52ed9d52a0.jpg);
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.kolkatasearchfield {
+  width: 45%;
+  height: 45px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 0 0 10px black;
+}
+.kolkataleftsearchfield {
+  width: 80%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.kolkataleftsearchfieldinputbox {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif !important;
+  color: #939191;
+  padding-left: 4%;
+}
+.kolkatarightsearchfield {
+  width: 20%;
+  border: none;
+  outline: none;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.kolkatarightsearchfieldbtn {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #ff7b00;
+  word-spacing: 20px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.kolkatasearchicon {
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
+
+/*  Puri background banner media query code starts here */
+@media only screen and (min-width: 1025px) and (max-width: 1350px) {
+  .kolkatasearchfield {
+    width: 60%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .kolkatasearchfield {
+    width: 65%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .kolkataleftsearchfield {
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkataleftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkatarightsearchfield {
+    width: 20%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatarightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatasearchicon {
+    margin-right: 3px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 860px) {
+  .kolkatasearchfield {
+    width: 75%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .kolkataleftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkataleftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkatarightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatarightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatasearchicon {
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .kolkatasearchfield {
+    width: 90%;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .kolkataleftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkataleftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkatarightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatarightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatasearchicon {
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 399px) {
+  .kolkatasearchfield {
+    width: 90%;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .kolkataleftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkataleftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .kolkatarightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatarightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .kolkatasearchicon {
+    display: none !important;
+  }
+}
+.kolkatabackgroundbanner h4 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+  .kolkatabackgroundbanner h4 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+  .kolkatabackgroundbanner h4 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+  .kolkatabackgroundbanner h4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+/*   Sorting main class starts here */
+.kolkatasortingmaindiv {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.kolkatasortingmenudiv {
+  display: flex;
+
+  margin-left: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.kolkatapricebutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.kolkatapopularbutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 10px;
+}
+.kolkatadurationbutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+  .kolkatasortingmenudiv {
+    display: flex;
+
+    margin-left: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 340px) {
+  .kolkatapricebutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .kolkatapopularbutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .kolkatadurationbutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0px;
+  }
+}
+.kolkatasortingmaindiv h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 150px;
+}
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .kolkatasortingmaindiv h4 {
+    display: none;
+  }
+}
+.kolkatalowerbutton {
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+}
+.kolkataupperborderbuttom {
+  border-top: 1px solid gray;
+  width: 100%;
+}
+.kolkatalowerbutton {
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+}
+.kolkataupperbutton {
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+}

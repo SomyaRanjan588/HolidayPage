@@ -1,0 +1,433 @@
+.puribackgroundbanner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 74%),
+    url(https://cdn-cms.pgimgs.com/news/2015/07/Maldives-beach.jpg);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  .puribackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4) 74%
+      ),
+      url(https://cdn-cms.pgimgs.com/news/2015/07/Maldives-beach.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 550px) and (max-width: 749px) {
+  .puribackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4) 74%
+      ),
+      url(https://cdn-cms.pgimgs.com/news/2015/07/Maldives-beach.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 0px) and (max-width: 549px) {
+  .puribackgroundbanner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4) 74%
+      ),
+      url(https://cdn-cms.pgimgs.com/news/2015/07/Maldives-beach.jpg);
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.purisearchfield {
+  width: 45%;
+  height: 45px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 0 0 10px black;
+}
+.purileftsearchfield {
+  width: 80%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.purileftsearchfieldinputbox {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif !important;
+  color: #939191;
+  padding-left: 4%;
+}
+.purirightsearchfield {
+  width: 20%;
+  border: none;
+  outline: none;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.purirightsearchfieldbtn {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #ff7b00;
+  word-spacing: 20px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.purisearchicon {
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
+
+/*  Puri background banner media query code starts here */
+@media only screen and (min-width: 1025px) and (max-width: 1350px) {
+  .purisearchfield {
+    width: 60%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .purisearchfield {
+    width: 65%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .purileftsearchfield {
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purirightsearchfield {
+    width: 20%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purisearchicon {
+    margin-right: 3px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 860px) {
+  .purisearchfield {
+    width: 75%;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .purileftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purirightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purisearchicon {
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .purisearchfield {
+    width: 90%;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .purileftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purirightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purisearchicon {
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 399px) {
+  .purisearchfield {
+    width: 90%;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+  }
+  .purileftsearchfield {
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purileftsearchfieldinputbox {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .purirightsearchfield {
+    width: 25%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purirightsearchfieldbtn {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #ff7b00;
+    word-spacing: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .purisearchicon {
+    display: none !important;
+  }
+}
+/*  Puri sorting maindiv css code starts here  */
+
+.purisortingmaindiv {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.purisortingmenudiv {
+  display: flex;
+
+  margin-left: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.puripricebutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.puripopularbutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 10px;
+}
+.puridurationbutton {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #fcce19;
+  padding: 2px 15px 3px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+  .purisortingmenudiv {
+    display: flex;
+
+    margin-left: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 340px) {
+  .puripricebutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .puripopularbutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .puridurationbutton {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #fcce19;
+    padding: 2px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0px;
+  }
+}
+.purisortingmaindiv h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 150px;
+}
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .purisortingmaindiv h4 {
+    display: none;
+  }
+}
+.purilowerbutton {
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+}
+.puribackgroundbanner h4 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+  .puribackgroundbanner h4 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+  .puribackgroundbanner h4 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+  .puribackgroundbanner h4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+}
